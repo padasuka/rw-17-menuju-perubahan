@@ -10,14 +10,8 @@
     <meta property="og:title" content="Portal Digital RW 17 - Dukung Bapak Budi">
     <meta property="og:description" content="Mari wujudkan lingkungan RW 17 yang modern, transparan, dan sejahtera bersama Bapak Budiansyah.">
     <meta property="og:image" content="https://i.ibb.co.com/gLTBNdTL/Gemini-Generated-Image-44pcpn44pcpn44pc.png">
-    <meta property="og:image:type" content="image/png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
-
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Portal Digital RW 17 - Dukung Bapak Budi">
-    <meta name="twitter:description" content="Mari wujudkan lingkungan RW 17 yang modern, transparan, dan sejahtera bersama Bapak Budiansyah.">
-    <meta name="twitter:image" content="https://i.ibb.co.com/gLTBNdTL/Gemini-Generated-Image-44pcpn44pcpn44pc.png">
 
     <link rel="icon" type="image/png" href="https://i.ibb.co.com/Lzmfd2vD/logo.png">
     
@@ -25,7 +19,7 @@
     <style>
         body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; scroll-behavior: smooth; }
         .hero-bg { 
-            background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://assets.jabarekspres.com/main/2021/09/WhatsApp-Image-2021-09-01-at-18.25.50.jpeg'); 
+            background: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url('https://assets.jabarekspres.com/main/2021/09/WhatsApp-Image-2021-09-01-at-18.25.50.jpeg'); 
             background-size: cover; 
             background-position: center;
         }
@@ -49,9 +43,12 @@
             animation-play-state: paused;
         }
         .testi-card {
-            width: 320px;
+            width: 280px;
             flex-shrink: 0;
-            margin: 0 15px;
+            margin: 0 10px;
+        }
+        @media (min-width: 768px) {
+            .testi-card { width: 350px; margin: 0 15px; }
         }
     </style>
 </head>
@@ -59,40 +56,39 @@
 
     <nav class="bg-blue-700 text-white p-4 sticky top-0 z-50 shadow-lg">
         <div class="container mx-auto flex justify-between items-center">
-            <h1 class="text-xl font-bold flex items-center gap-3">
-                <img src="https://i.ibb.co.com/Lzmfd2vD/logo.png" alt="Logo Padasuka" class="w-10 h-10 object-contain">
+            <h1 class="text-lg md:text-xl font-bold flex items-center gap-2">
+                <img src="https://i.ibb.co.com/Lzmfd2vD/logo.png" alt="Logo" class="w-8 h-8 md:w-10 md:h-10 object-contain">
                 RW 17 DIGITAL
             </h1>
-            <div class="space-x-6 hidden md:flex font-medium text-sm">
-                <a href="#beranda" class="hover:text-blue-200 transition">Beranda</a>
-                <a href="#berita" class="hover:text-blue-200 transition">Berita</a>
-                <a href="#anggaran" class="hover:text-blue-200 transition">Anggaran</a>
-                <a href="#keluhan" class="hover:text-blue-200 transition">Keluhan</a>
-                <a href="#testimoni" class="hover:text-blue-200 transition">Testimoni</a>
+            <div class="space-x-4 hidden md:flex font-medium text-sm">
+                <a href="#beranda" class="hover:text-yellow-400 transition">Beranda</a>
+                <a href="#berita" class="hover:text-yellow-400 transition">Berita</a>
+                <a href="#anggaran" class="hover:text-yellow-400 transition">Anggaran</a>
+                <a href="#keluhan" class="hover:text-yellow-400 transition">Aspirasi</a>
             </div>
         </div>
     </nav>
 
-    <section id="beranda" class="hero-bg min-h-[550px] flex items-center justify-center text-white px-6 py-12">
+    <section id="beranda" class="hero-bg min-h-screen md:min-h-[600px] flex items-center justify-center text-white px-4 py-12">
         <div class="container mx-auto flex flex-col md:flex-row items-center gap-10">
             
-            <div class="w-64 h-64 md:w-80 md:h-96 flex-shrink-0">
+            <div class="w-full max-w-[280px] md:max-w-sm flex-shrink-0">
                 <img src="https://i.ibb.co.com/gLTBNdTL/Gemini-Generated-Image-44pcpn44pcpn44pc.png" 
-                     class="w-full h-full object-cover rounded-2xl border-4 border-yellow-400 shadow-2xl" 
+                     class="w-full aspect-[3/4] object-cover rounded-3xl border-4 border-yellow-400 shadow-2xl" 
                      alt="Bapak Budiansyah">
             </div>
 
             <div class="max-w-2xl text-center md:text-left">
-                <span class="bg-yellow-400 text-blue-900 px-4 py-1 rounded-full font-bold text-sm uppercase tracking-wider mb-4 inline-block shadow-lg">
+                <span class="bg-yellow-400 text-blue-900 px-4 py-1 rounded-full font-bold text-xs md:text-sm uppercase tracking-wider mb-4 inline-block">
                     📢 PENGUMUMAN CALON KETUA RW
                 </span>
                 <h2 class="text-4xl md:text-6xl font-extrabold mb-4 leading-tight">
                     Mari Dukung <br><span class="text-yellow-400">Bapak Budiansyah</span>
                 </h2>
-                <p class="text-lg md:text-xl font-light italic mb-8 leading-relaxed opacity-90">
+                <p class="text-lg md:text-xl font-light italic mb-8 opacity-90">
                     "Bersama Bapak Budiansyah, kita wujudkan lingkungan RW 17 yang lebih modern, transparan, dan sejahtera bagi seluruh warga."
                 </p>
-                <div class="flex flex-col md:flex-row gap-4 justify-center md:justify-start">
+                <div class="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
                     <a href="#keluhan" class="bg-yellow-400 text-blue-900 px-10 py-4 rounded-xl font-bold hover:bg-yellow-300 transition-all shadow-xl active:scale-95 text-center">
                         Sampaikan Aspirasi
                     </a>
@@ -101,181 +97,150 @@
                     </a>
                 </div>
             </div>
-
         </div>
     </section>
 
-    <div style="background: linear-gradient(90deg, #1a2a6c, #b21f1f); color: white; padding: 10px; font-family: Arial, sans-serif; font-weight: bold; border-radius: 5px; overflow: hidden;">
-        <marquee behavior="scroll" direction="left" scrollamount="6">
+    <div class="bg-blue-900 text-white py-2 font-bold border-y border-yellow-400 overflow-hidden">
+        <marquee behavior="scroll" direction="left" scrollamount="6" class="text-sm md:text-base">
             Modern, Melayani, Membangun. Digitalisasi Daerah untuk Kesejahteraan Bersama - Kelurahan Padasuka, Cimahi Tengah.
         </marquee>
     </div>
 
     <div class="container mx-auto px-4 py-10">
         
-        <div class="bg-red-50 border-l-8 border-red-600 p-6 mb-12 shadow-md rounded-r-lg">
-    <div class="flex items-center gap-4">
-        <span class="text-4xl animate-bounce">🗳️</span>
-        <div>
-            <h3 class="font-bold text-red-800 text-lg uppercase tracking-wider">
-                Mari Kita Sukseskan Pemilihan Ketua RW 17
-            </h3>
-            <p class="text-red-700 leading-relaxed">
-                Gunakan hak suara Anda untuk mewujudkan lingkungan yang <b>transparan, modern, dan guyub</b>. 
-                Satu suara Anda menentukan masa depan RW kita tercinta.
-            </p>
+        <div class="bg-red-50 border-l-4 md:border-l-8 border-red-600 p-6 mb-12 shadow-md rounded-r-lg">
+            <div class="flex items-center gap-4">
+                <span class="text-3xl animate-bounce">🗳️</span>
+                <div>
+                    <h3 class="font-bold text-red-800 text-base md:text-lg uppercase">Mari Sukseskan Pemilihan Ketua RW 17</h3>
+                    <p class="text-red-700 text-sm md:text-base">Gunakan hak suara Anda untuk mewujudkan lingkungan yang transparan dan modern.</p>
+                </div>
+            </div>
         </div>
-    </div>
-</div>
 
         <section id="berita" class="mb-20">
-            <h3 class="font-bold text-3xl mb-10 text-center text-gray-800 flex items-center justify-center gap-3">
-                📰 Berita & Kegiatan Lingkungan
+            <h3 class="font-bold text-2xl md:text-3xl mb-10 text-center text-gray-800 flex items-center justify-center gap-3">
+                📰 Berita & Kegiatan
             </h3>
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                
-                <div class="bg-white rounded-2xl shadow-lg overflow-hidden border border-gray-100 transform hover:-translate-y-2 transition duration-300">
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-white rounded-2xl shadow-lg overflow-hidden border border-gray-100 hover:-translate-y-2 transition duration-300">
                     <img src="https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?auto=format&fit=crop&w=600&q=80" class="w-full h-48 object-cover">
                     <div class="p-6 bg-blue-600 text-white">
-                        <span class="text-xs font-bold bg-blue-800 px-2 py-1 rounded uppercase">Agenda Sosial</span>
-                        <h4 class="font-bold text-xl my-2 text-yellow-300">Kerja Bakti Massal</h4>
-                        <p class="text-sm font-light opacity-90">Hari Minggu ini pukul 07.00. Fokus pembersihan drainase dan taman warga.</p>
+                        <h4 class="font-bold text-xl text-yellow-300">Kerja Bakti Massal</h4>
+                        <p class="text-sm mt-2 opacity-90 font-light">Fokus pembersihan drainase dan taman warga setiap hari Minggu.</p>
                     </div>
                 </div>
-
-                <div class="bg-white rounded-2xl shadow-lg overflow-hidden border border-gray-100 transform hover:-translate-y-2 transition duration-300">
+                <div class="bg-white rounded-2xl shadow-lg overflow-hidden border border-gray-100 hover:-translate-y-2 transition duration-300">
                     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAqnsNtzE_qazPqguZYw9OEAZTe2vHLbM_Tw&s" class="w-full h-48 object-cover">
                     <div class="p-6 bg-blue-600 text-white">
-                        <span class="text-xs font-bold bg-blue-800 px-2 py-1 rounded uppercase">Keamanan</span>
-                        <h4 class="font-bold text-xl my-2 text-yellow-300">Patroli Malam Ramadan</h4>
-                        <p class="text-sm font-light opacity-90">Penambahan personel Siskamling demi keamanan dan kenyamanan ibadah warga.</p>
+                        <h4 class="font-bold text-xl text-yellow-300">Keamanan Malam</h4>
+                        <p class="text-sm mt-2 opacity-90 font-light">Peningkatan patroli keamanan demi kenyamanan ibadah di bulan Ramadan.</p>
                     </div>
                 </div>
-
-                <div class="bg-white rounded-2xl shadow-lg overflow-hidden border border-gray-100 transform hover:-translate-y-2 transition duration-300">
+                <div class="bg-white rounded-2xl shadow-lg overflow-hidden border border-gray-100 hover:-translate-y-2 transition duration-300 sm:col-span-2 lg:col-span-1">
                     <img src="https://i.ibb.co.com/vxXnDtHb/Gemini-Generated-Image-6o7tjb6o7tjb6o7t.png" class="w-full h-48 object-cover">
                     <div class="p-6 bg-blue-600 text-white">
-                        <span class="text-xs font-bold bg-blue-800 px-2 py-1 rounded uppercase">Sapa warga </span>
-                        <h4 class="font-bold text-xl my-2 text-yellow-300">guyub bersama warga </h4>
-                        <p class="text-sm font-light opacity-90">Mendengar langsung suara tetangga untuk lingkungan yang lebih nyaman dan transparan.</p>
+                        <h4 class="font-bold text-xl text-yellow-300">Sapa Warga</h4>
+                        <p class="text-sm mt-2 opacity-90 font-light">Mendengar langsung keluhan warga untuk lingkungan yang transparan.</p>
                     </div>
                 </div>
-
             </div>
         </section>
 
-        <div class="grid md:grid-cols-3 gap-8 mb-20">
-            <div class="md:col-span-1">
-                <div class="bg-white p-8 rounded-2xl shadow-sm border-t-8 border-blue-700 h-full">
-                    <h3 class="font-bold text-2xl mb-6 text-blue-700">📋 Fokus Program</h3>
-                    <ul class="space-y-4 text-gray-700 font-medium">
-                        <li class="flex items-start gap-3"><span>✅</span> Digitalisasi administrasi warga</li>
-                        <li class="flex items-start gap-3"><span>✅</span> Transparansi iuran & kas RW </li>
-                        <li class="flex items-start gap-3"><span>✅</span> Penguatan keamanan 24 jam</li>
-                        <li class="flex items-start gap-3"><span>✅</span> Peningkatan fasilitas umum</li>
-                    </ul>
-                </div>
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-20">
+            <div class="bg-white p-8 rounded-2xl shadow-sm border-t-8 border-blue-700">
+                <h3 class="font-bold text-2xl mb-6 text-blue-700">📋 Fokus Program</h3>
+                <ul class="space-y-4 text-gray-700 font-medium">
+                    <li>✅ Digitalisasi Administrasi</li>
+                    <li>✅ Transparansi Kas RW</li>
+                    <li>✅ Penguatan Keamanan 24 Jam</li>
+                    <li>✅ Perbaikan Fasilitas Umum</li>
+                </ul>
             </div>
-
-            <div class="md:col-span-2">
-                <section id="anggaran" class="bg-white p-8 rounded-2xl shadow-sm border border-gray-100 h-full">
-                    <h3 class="font-bold text-2xl mb-6 text-gray-800 flex items-center gap-2">📊 Contoh Transparansi Kas (Maret 2026)</h3>
-                    <div class="overflow-x-auto">
-                        <table class="w-full text-left border-collapse">
-                            <thead>
-                                <tr class="bg-gray-800 text-white">
-                                    <th class="p-4 rounded-tl-lg border-b border-gray-700">Uraian</th>
-                                    <th class="p-4 text-center border-b border-gray-700">Masuk (+)</th>
-                                    <th class="p-4 text-center border-b border-gray-700 rounded-tr-lg">Keluar (-)</th>
-                                </tr>
-                            </thead>
-                            <tbody class="divide-y divide-gray-100 border">
-                                <tr>
-                                    <td class="p-4 font-medium">Total Iuran Warga</td>
-                                    <td class="p-4 text-green-600 font-bold text-center">Rp 5.250.000</td>
-                                    <td class="p-4 text-center">-</td>
-                                </tr>
-                                <tr>
-                                    <td class="p-4 font-medium">Gaji Keamanan & Kebersihan</td>
-                                    <td class="p-4 text-center">-</td>
-                                    <td class="p-4 text-red-600 font-bold text-center">Rp 3.500.000</td>
-                                </tr>
-                                <tr class="bg-blue-50 font-extrabold">
-                                    <td class="p-4 text-right" colspan="2">Saldo Akhir:</td>
-                                    <td class="p-4 text-blue-700 text-xl text-center">Rp 1.750.000</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </section>
+            <div class="lg:col-span-2 bg-white p-8 rounded-2xl shadow-sm border border-gray-100 overflow-x-auto">
+                <h3 class="font-bold text-2xl mb-6">📊 Transparansi Kas (Maret 2026)</h3>
+                <table class="w-full text-left border-collapse min-w-[400px]">
+                    <thead>
+                        <tr class="bg-gray-800 text-white text-sm">
+                            <th class="p-4">Uraian</th>
+                            <th class="p-4 text-center">Masuk (+)</th>
+                            <th class="p-4 text-center">Keluar (-)</th>
+                        </tr>
+                    </thead>
+                    <tbody class="divide-y divide-gray-100 border text-sm md:text-base">
+                        <tr>
+                            <td class="p-4 font-medium">Iuran Warga</td>
+                            <td class="p-4 text-green-600 font-bold text-center">Rp 5.250.000</td>
+                            <td class="p-4 text-center">-</td>
+                        </tr>
+                        <tr>
+                            <td class="p-4 font-medium">Gaji Keamanan</td>
+                            <td class="p-4 text-center">-</td>
+                            <td class="p-4 text-red-600 font-bold text-center">Rp 3.500.000</td>
+                        </tr>
+                        <tr class="bg-blue-50 font-bold">
+                            <td class="p-4 text-right" colspan="2">Saldo Akhir:</td>
+                            <td class="p-4 text-blue-700 text-center">Rp 1.750.000</td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
         </div>
 
-        <section id="keluhan" class="bg-white p-8 md:p-12 rounded-3xl shadow-xl border border-blue-50 mb-20">
-            <h3 class="font-bold text-3xl mb-8 text-gray-800">📝 Aspirasi Untuk Bapak Budi</h3>
+        <section id="keluhan" class="bg-white p-6 md:p-12 rounded-3xl shadow-xl border border-blue-50 mb-20">
+            <h3 class="font-bold text-2xl md:text-3xl mb-8">📝 Aspirasi Untuk Bapak Budi</h3>
             <form id="formAspirasi" class="space-y-6">
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-                    <div class="space-y-2">
-                        <label class="text-sm font-bold text-gray-600 ml-1">Nama Lengkap</label>
-                        <input type="text" id="wa_nama" placeholder="Masukkan nama Anda" class="w-full p-4 bg-gray-50 border border-gray-200 rounded-xl outline-none focus:ring-2 focus:ring-blue-500 transition">
-                    </div>
-                    <div class="space-y-2">
-                        <label class="text-sm font-bold text-gray-600 ml-1">No. Rumah / Blok</label>
-                        <input type="text" id="wa_blok" placeholder="Contoh: Blok A No. 05" class="w-full p-4 bg-gray-50 border border-gray-200 rounded-xl outline-none focus:ring-2 focus:ring-blue-500 transition">
-                    </div>
+                    <input type="text" id="wa_nama" placeholder="Nama Lengkap" class="w-full p-4 bg-gray-50 border border-gray-200 rounded-xl outline-none focus:ring-2 focus:ring-blue-500">
+                    <input type="text" id="wa_blok" placeholder="No. Rumah / Blok" class="w-full p-4 bg-gray-50 border border-gray-200 rounded-xl outline-none focus:ring-2 focus:ring-blue-500">
                 </div>
-                <div class="space-y-2">
-                    <label class="text-sm font-bold text-gray-600 ml-1">Detail Keluhan / Saran</label>
-                    <textarea id="wa_pesan" placeholder="Tuliskan saran atau keluhan Anda di sini..." rows="4" class="w-full p-4 bg-gray-50 border border-gray-200 rounded-xl outline-none focus:ring-2 focus:ring-blue-500 transition"></textarea>
-                </div>
-                <button type="button" onclick="kirimKeWhatsApp()" class="bg-green-600 text-white px-12 py-4 rounded-2xl font-bold hover:bg-green-700 shadow-lg transition-all active:scale-95 flex items-center gap-2">
-                    <span>💬</span> Kirim Ke WhatsApp & Testimoni
+                <textarea id="wa_pesan" placeholder="Tuliskan saran atau keluhan Anda..." rows="4" class="w-full p-4 bg-gray-50 border border-gray-200 rounded-xl outline-none focus:ring-2 focus:ring-blue-500"></textarea>
+                <button type="button" onclick="kirimKeWhatsApp()" class="w-full md:w-auto bg-green-600 text-white px-12 py-4 rounded-xl font-bold hover:bg-green-700 shadow-lg active:scale-95 transition flex items-center justify-center gap-2">
+                    💬 Kirim Ke WhatsApp & Testimoni
                 </button>
             </form>
         </section>
 
-        <section id="testimoni" class="py-12 bg-white rounded-3xl shadow-sm border border-gray-100 overflow-hidden">
-            <h3 class="font-bold text-3xl mb-12 text-center text-gray-800">💬 Suara Warga RW 17</h3>
+        <section id="testimoni" class="py-12 bg-white rounded-3xl shadow-sm border border-gray-100 overflow-hidden mb-20">
+            <h3 class="font-bold text-2xl md:text-3xl mb-12 text-center">💬 Suara Warga RW 17</h3>
             <div class="testimonial-container">
                 <div id="slider-testi" class="testimonial-slider">
-                    <div class="testi-card bg-blue-50 p-6 rounded-2xl border border-blue-100">
+                    <div class="testi-card bg-blue-50 p-6 rounded-2xl border border-blue-100 shadow-sm">
                         <p class="italic text-gray-700 text-sm">"Sangat terbantu dengan pelayanan digital ini. Bapak Budi memang visioner!"</p>
-                        <p class="text-xs font-bold mt-4 text-blue-800 text-right">- Pak Rahmad, Rw 17</p>
+                        <p class="text-xs font-bold mt-4 text-blue-800 text-right">- Pak Rahmad, RW 17</p>
                     </div>
-                    <div class="testi-card bg-green-50 p-6 rounded-2xl border border-green-100">
+                    <div class="testi-card bg-green-50 p-6 rounded-2xl border border-green-100 shadow-sm">
                         <p class="italic text-gray-700 text-sm">"Transparansi kas bikin kami tenang menyetor iuran setiap bulan."</p>
-                        <p class="text-xs font-bold mt-4 text-green-800 text-right">- Ibu Sari, Rw 17</p>
+                        <p class="text-xs font-bold mt-4 text-green-800 text-right">- Ibu Sari, RW 17</p>
                     </div>
-                    <div class="testi-card bg-yellow-50 p-6 rounded-2xl border border-yellow-100">
-                        <p class="italic text-gray-700 text-sm">"Lingkungan terasa lebih aman dan kompak di bawah kepemimpinan yang tegas."</p>
-                        <p class="text-xs font-bold mt-4 text-yellow-800 text-right">- Pak Satrio, Rw 17</p>
+                    <div class="testi-card bg-yellow-50 p-6 rounded-2xl border border-yellow-100 shadow-sm">
+                        <p class="italic text-gray-700 text-sm">"Lingkungan terasa lebih aman dan kompak di bawah kepemimpinan beliau."</p>
+                        <p class="text-xs font-bold mt-4 text-yellow-800 text-right">- Pak Satrio, RW 17</p>
+                    </div>
+                    <div class="testi-card bg-blue-50 p-6 rounded-2xl border border-blue-100 shadow-sm">
+                        <p class="italic text-gray-700 text-sm">"Sangat terbantu dengan pelayanan digital ini. Bapak Budi memang visioner!"</p>
+                        <p class="text-xs font-bold mt-4 text-blue-800 text-right">- Pak Rahmad, RW 17</p>
                     </div>
                 </div>
             </div>
         </section>
     </div>
 
-    <footer class="bg-gray-900 text-white py-16 mt-10 border-t-4 border-yellow-400">
-        <div class="container mx-auto px-6 grid md:grid-cols-3 gap-12 text-center md:text-left">
+    <footer class="bg-gray-900 text-white py-12 border-t-4 border-yellow-400">
+        <div class="container mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-10 text-sm md:text-left text-center">
             <div>
-                <h4 class="text-2xl font-bold mb-6 text-blue-400">RW 17 DIGITAL</h4>
-                <p class="text-gray-400 text-sm leading-relaxed italic">"Membangun harmoni dalam keberagaman melalui teknologi dan semangat gotong royong."</p>
+                <h4 class="text-xl font-bold mb-4 text-blue-400">RW 17 DIGITAL</h4>
+                <p class="text-gray-400 italic">"Membangun harmoni dalam keberagaman melalui teknologi dan gotong royong."</p>
             </div>
             <div>
-                <h4 class="text-xl font-bold mb-6 border-b border-gray-700 pb-2 inline-block">Nomor Darurat</h4>
-                <ul class="text-gray-400 text-sm space-y-2">
-                    <li>📞 Polsek Terdekat: 110</li>
-                    <li>📞 Ambulans/Medis: 118</li>
-                    <li>📞 Pos Satpam RW 17: 0812-XXXX-XXXX</li>
-                </ul>
+                <h4 class="font-bold mb-4 text-yellow-400 uppercase">Darurat</h4>
+                <p class="text-gray-400">📞 Polisi: 110 | Ambulans: 118</p>
+                <p class="text-gray-400">📞 Satpam RW: 0812-XXXX-XXXX</p>
             </div>
             <div>
-                <h4 class="text-xl font-bold mb-6 border-b border-gray-700 pb-2 inline-block">Lokasi</h4>
-                <p class="text-gray-400 text-sm">Jl. Kb. Manggu, Padasuka, Kec. Cimahi Tengah, Kota Cimahi, Jawa Barat 40526</p>
+                <h4 class="font-bold mb-4 text-yellow-400 uppercase">Lokasi</h4>
+                <p class="text-gray-400">Jl. Kb. Manggu, Padasuka, Cimahi Tengah, Kota Cimahi.</p>
             </div>
-        </div>
-        <div class="border-t border-gray-800 mt-16 pt-8 text-center text-gray-500 text-xs uppercase tracking-widest">
-            <p>&copy; 2026 Pendukung Bapak Budiansyah RW 17. All Rights Reserved.</p>
         </div>
     </footer>
 
@@ -299,13 +264,13 @@
         };
 
         function kirimKeWhatsApp() {
-            const nomorWA = "6285759229434"; // Format nomor WA tanpa + atau spasi
+            const nomorWA = "6285759229434";
             const nama = document.getElementById('wa_nama').value;
             const blok = document.getElementById('wa_blok').value;
             const pesan = document.getElementById('wa_pesan').value;
 
-            if (nama === "" || pesan === "") {
-                alert("Silakan lengkapi Nama dan Pesan Anda.");
+            if (!nama || !pesan) {
+                alert("Harap isi Nama dan Pesan.");
                 return;
             }
 
@@ -314,15 +279,7 @@
             listTesti.push({ nama, blok, pesan });
             localStorage.setItem('testimoni_lokal', JSON.stringify(listTesti));
 
-            const formatPesan = `Halo Bapak Budi/Pengurus RW 17,%0A%0A` +
-                                `*ASPIRASI WARGA BARU*%0A` +
-                                `----------------------------%0A` +
-                                `*Nama:* ${nama}%0A` +
-                                `*Blok/No:* ${blok}%0A` +
-                                `*Pesan:* ${pesan}%0A` +
-                                `----------------------------%0A` +
-                                `_Dikirim melalui Portal RW 17 Digital_`;
-
+            const formatPesan = `Halo Bapak Budi/Pengurus RW 17,%0A%0A*ASPIRASI WARGA BARU*%0A*Nama:* ${nama}%0A*Blok:* ${blok}%0A*Pesan:* ${pesan}`;
             window.open(`https://wa.me/${nomorWA}?text=${formatPesan}`, '_blank');
 
             document.getElementById('wa_nama').value = "";
