@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+   <!DOCTYPE html>
 <html lang="id">
 <head>
     <meta charset="UTF-8">
@@ -24,7 +24,6 @@
             background-position: center;
         }
         
-        /* Animasi Testimoni Berjalan */
         @keyframes scroll {
             0% { transform: translateX(0); }
             100% { transform: translateX(-50%); }
@@ -82,9 +81,22 @@
                 <span class="bg-yellow-400 text-blue-900 px-4 py-1 rounded-full font-bold text-xs md:text-sm uppercase tracking-wider mb-4 inline-block">
                     📢 PENGUMUMAN CALON KETUA RW
                 </span>
-                <h2 class="text-4xl md:text-6xl font-extrabold mb-4 leading-tight">
-                    Mari Dukung <br><span class="text-yellow-400">Bapak Budi Mansyah-</span>No.2
-                </h2>
+                
+                <div class="flex flex-col md:flex-row items-center md:items-end gap-6 mb-6">
+                    <h2 class="text-4xl md:text-6xl font-extrabold leading-tight">
+                        Mari Dukung <br><span class="text-yellow-400">Bapak Budi Mansyah</span> No.
+                    </h2>
+                    
+                    <div class="relative inline-flex items-center justify-center w-20 h-20 md:w-28 md:h-28 border-4 md:border-8 border-yellow-400 rounded-full bg-white text-blue-900 shadow-[0_0_20px_rgba(250,204,21,0.5)] flex-shrink-0 animate-pulse">
+                        <span class="text-5xl md:text-7xl font-black">2</span>
+                        <div class="absolute -top-1 -right-1 md:-top-2 md:-right-2 bg-green-500 text-white rounded-full w-8 h-8 md:w-11 md:h-11 flex items-center justify-center border-2 border-white shadow-lg">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 md:h-7 md:w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="M5 13l4 4L19 7" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+
                 <p class="text-lg md:text-xl font-light italic mb-8 opacity-90">
                     "Bersama Bapak Budi Mansyah, kita wujudkan lingkungan RW 17 yang lebih modern, transparan, dan sejahtera bagi seluruh warga."
                 </p>
@@ -216,10 +228,6 @@
                     <div class="testi-card bg-yellow-50 p-6 rounded-2xl border border-yellow-100 shadow-sm">
                         <p class="italic text-gray-700 text-sm">"Lingkungan terasa lebih aman dan kompak di bawah kepemimpinan beliau."</p>
                         <p class="text-xs font-bold mt-4 text-yellow-800 text-right">- Pak Satrio, RW 17</p>
-                    </div>
-                    <div class="testi-card bg-blue-50 p-6 rounded-2xl border border-blue-100 shadow-sm">
-                        <p class="italic text-gray-700 text-sm">"Sangat terbantu dengan pelayanan digital ini. Bapak Budi memang visioner!"</p>
-                        <p class="text-xs font-bold mt-4 text-blue-800 text-right">- Pak Rahmad, RW 17</p>
                     </div>
                 </div>
             </div>
